@@ -1,0 +1,54 @@
+body{
+    overflow-x: hidden;
+}
+
+.galeria{
+    display: block;
+    width:100%;
+    margin: 20px auto;
+}
+.galeria img{
+    display: block;
+    width:100%;
+    border-radius: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    
+}
+
+.btn-link{
+    font-size: 1.5rem;
+  }
+
+.rodape {
+    margin-top: 200px;
+}
+
+  footer{
+    background-color: rgb(158, 153, 153);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin: auto auto;
+
+  }
+
+  footer address{
+      text-align: center;
+      padding: 20px;
+  }
+
+
+@media (max-width:600px){
+    .btn-link{
+        font-size:0.8rem;
+      }
+
+      footer address{
+          padding:10px;
+          font-size: 0.6rem;
+          height: 10px;
+      }
+  
+}
